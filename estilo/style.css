@@ -1,0 +1,12 @@
+@charset "UTF-8";
+
+header {
+    margin: auto;
+    max-width: 300px;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+}
+

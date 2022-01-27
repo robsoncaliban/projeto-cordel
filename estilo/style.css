@@ -16,7 +16,6 @@ header {
     background-color: black;
     color: white;
     text-align: center;
-    margin-bottom: 40px;
    
 }
 
@@ -33,9 +32,41 @@ header > p {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-section {
+section.normal {
     font-size: 3.5vw;
-    padding: 30px;
+    padding: 60px 30px;
+    line-height: 2em;
+}
+
+.normal p {
+   padding-bottom: 50px;
+    
+}
+
+section.imagem {
+    padding: 60px 30px;
+    font-size: 3.5vw;
+}
+
+.imagem p {
+    background-color: #0000009f;
+    color: white;
+    padding: 5px;
+    line-height: 2em;
+}
+
+section#img01 {
+    background-image: url("../imagens/background001.jpg");
+    background-attachment: fixed;
+    background-position: right;
+    background-size:cover;
+}
+
+section#img02 {
+    background-image: url("../imagens/background002.jpg");
+    background-position:  center;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 footer {
@@ -44,9 +75,7 @@ footer {
     background-color: black;
     color: white;
     text-align: center;
-    margin-top: 90px;
-    
-     
+  
 }
 
  a {

@@ -59,13 +59,13 @@ section.imagem {
 section#img01 {
     background-image: url("../imagens/background001.jpg");
     background-attachment: fixed;
-    background-position: right;
+    background-position: center right;
     background-size:cover;
 }
 
 section#img02 {
     background-image: url("../imagens/background002.jpg");
-    background-position:  center;
+    background-position:  bottom right;
     background-size: cover;
     background-attachment: fixed;
 }

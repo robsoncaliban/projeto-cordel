@@ -53,6 +53,7 @@ section.imagem {
     color: white;
     padding: 5px;
     line-height: 2em;
+    display: inline-block;
 }
 
 section#img01 {

@@ -7,9 +7,21 @@
     margin: 0px;
 }
 
-body {
-    font-family: 'Sriracha', cursive;
+html, body {
+    min-height: 100vh;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 
+}
+
+a {
+    text-decoration: none;
+    font-weight: bolder;
+    color: white;
+}
+
+ a:hover {
+    text-decoration: underline;
+    
 }
 
 header {
@@ -29,13 +41,22 @@ header h1 {
 header > p {
     padding-bottom: 50px;
     font-size: 1em;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
 }
 
-section.normal {
-    font-size: 3.5vw;
-    padding: 60px 30px;
+section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-left: 30px;
     line-height: 2em;
+    font-size: 3.5vw;
+    font-family: 'Sriracha', cursive;
+    
+}
+
+
+section.normal {
+    background-color: white;
 }
 
 .normal p {
@@ -44,34 +65,28 @@ section.normal {
 }
 
 section.imagem {
-    padding: 60px 30px;
-    font-size: 3.5vw;
+    background-attachment: fixed;
+    background-size:cover;
 }
 
 .imagem p {
     background-color: #0000009f;
     color: white;
     padding: 5px;
-    line-height: 2em;
     display: inline-block;
 }
 
 section#img01 {
     background-image: url("../imagens/background001.jpg");
-    background-attachment: fixed;
     background-position: center right;
-    background-size:cover;
 }
 
 section#img02 {
     background-image: url("../imagens/background002.jpg");
     background-position:  bottom right;
-    background-size: cover;
-    background-attachment: fixed;
 }
 
 footer {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
     padding: 10px;
     background-color: black;
     color: white;
@@ -79,14 +94,5 @@ footer {
   
 }
 
- a {
-    text-decoration: none;
-    font-weight: bolder;
-    color: white;
-}
 
- a:hover {
-    text-decoration: underline;
-    
-}
 

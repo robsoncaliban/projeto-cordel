@@ -54,26 +54,28 @@ section {
     
 }
 
-
 section.normal {
     background-color: white;
 }
 
 .normal p {
-   padding-bottom: 50px;
+   padding-bottom: 2em;
     
 }
 
 section.imagem {
     background-attachment: fixed;
     background-size:cover;
+    box-shadow: inset 6px 6px 13px 0px #000000b4;
 }
 
 .imagem p {
     background-color: #0000009f;
-    color: white;
-    padding: 5px;
     display: inline-block;
+    color: white;
+    text-shadow: 2px 2px 0px black ;
+    padding: 5px;
+    
 }
 
 section#img01 {
@@ -88,7 +90,7 @@ section#img02 {
 
 footer {
     padding: 10px;
-    background-color: black;
+    background-color: rgb(0, 0, 0);
     color: white;
     text-align: center;
   
